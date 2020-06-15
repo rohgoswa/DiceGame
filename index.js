@@ -4,14 +4,14 @@ document.querySelectorAll("p")[0].innerHTML= player1Name;
 document.querySelectorAll("p")[1].innerHTML= player2Name;
 
 var randomNumber1 = Math.floor(Math.random()*6 + 1);
-var randomNumberSource = ("images/dice"+randomNumber1+".png");
+var randomNumberSource = ("dice"+randomNumber1+".png");
 var image1 = document.querySelectorAll("img")[0];
 
 image1.setAttribute("src", randomNumberSource);
 
 
 var randomNumber2 = Math.floor(Math.random()*6 + 1);
-var randomNumberSource2= ("images/dice" +randomNumber2+".png");
+var randomNumberSource2= ("dice" +randomNumber2+".png");
 var image2 = document.querySelectorAll("img")[1];
 image2.setAttribute("src", randomNumberSource2);
 
