@@ -17,9 +17,9 @@ image2.setAttribute("src", randomNumberSource2);
 
 
 if (randomNumber1 > randomNumber2){
-  document.querySelectorAll("h1")[0].innerHTML= "🚩Player1 Wins!";
+  document.querySelectorAll("h1")[0].innerHTML= "🚩" + player1Name +" Wins!";
 }else if (randomNumber1 < randomNumber2) {
-  document.querySelectorAll("h1")[0].innerHTML= "Player2 Wins!🚩";
+  document.querySelectorAll("h1")[0].innerHTML= player2Name+ "Wins!🚩";
 }
 else {
   document.querySelectorAll("h1")[0].innerHTML= "🚩Drow!🚩";
